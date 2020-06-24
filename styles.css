@@ -1,0 +1,415 @@
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.competitive-edge {
+  font-size: 46px;
+  font-family: "Odibee Sans", serif;
+}
+.kickboxing {
+  font-size: 120px;
+  color: #ff0000;
+  text-shadow: 5px 5px firebrick;
+  font-family: "Odibee Sans", serif;
+}
+
+.slogan {
+  font-size: 34px;
+  font-family: "Bitter", serif;
+  padding-top: 10px;
+  text-shadow: 0 0 darkgrey, 0 0px darkgray, 1px 0 black, 0 -1px black;
+}
+.your-inner-champ {
+  font-style: italic;
+}
+.second-section-title {
+  text-align: center;
+  font-family: "Odibee Sans", serif;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.first-section {
+  background: url("images/image--000.jpg");
+  height: 750px;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.third-section {
+  background: url("images/image--004.jpg");
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.third-section-overlay {
+  background-color: darkblue;
+  opacity: 0.7;
+  display: flex;
+  flex: 1;
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.boxing-man {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxing-girl {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.module1 {
+  display: flex;
+  padding: 15px 150px;
+  align-items: center;
+}
+
+.column1 {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.module2 {
+  display: flex;
+  padding: 15px 150px;
+  align-items: center;
+}
+
+.module3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column2 {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.column4 {
+  border-top: 7px solid darkblue;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-boxer-text {
+  padding: 20px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.second-boxer-text {
+  padding: 20px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.schedule {
+  margin: 100px;
+  padding: 60px;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-title {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: "Odibee Sans", serif;
+  padding-top: 20px;
+}
+
+.schedule-row {
+  display: flex;
+  padding-bottom: 0px;
+  padding-top: 40px;
+}
+
+.schedule-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-item {
+  padding: 40px;
+  padding-top: 10px;
+}
+
+.gloves-pic {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  padding: 0 545px;
+  align-items: center;
+}
+
+.schedule-item-title {
+  color: FireBrick;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Odibee Sans", serif;
+}
+
+.price40 {
+  color: darkblue;
+  font-weight: bold;
+  font-family: "Odibee Sans", serif;
+}
+
+.compete-against {
+  color: #f4a460;
+  font-weight: bold;
+  font-size: 40px;
+}
+.best-version {
+  color: FireBrick;
+  font-weight: bold;
+  font-size: 50px;
+}
+.star {
+  color: darkblue;
+}
+.triple-star {
+  font-size: 50px;
+}
+
+.texts-losung {
+  color: FireBrick;
+  font-size: 25px;
+  font-family: "Odibee Sans", serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.big-star {
+  font-size: 60px;
+}
+
+.text {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.small-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trainer-name {
+  color: FireBrick;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.surname {
+  color: FireBrick;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.job-title {
+  color: darkblue;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column3 {
+  padding-bottom: 35px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.btn {
+  color: white;
+  background-color: FireBrick;
+  font-size: 18px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+}
+.btn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.book-a-class {
+  font-weight: bold;
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.swing:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.rotate:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+
+@media (max-width: 600px) {
+  .module1,
+  .module2,
+  .module3 {
+    display: block;
+  }
+  .module3 {
+    padding-bottom: 30px;
+  }
+  .fourth-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .schedule {
+    margin: 0;
+    padding: 0;
+  }
+
+  .star {
+    padding-right: 4px;
+  }
+
+  .big-star {
+    font-size: 24px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .schedule-item {
+    padding: 20px;
+  }
+
+  .kickboxing {
+    font-size: 80px;
+  }
+
+  .competitive-edge {
+    font-size: 40px;
+  }
+
+  .slogan {
+    font-size: 24px;
+    padding: 12px;
+  }
+
+  .first-section {
+    height: 100%;
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+
+  .second-section {
+    padding-bottom: 20px;
+  }
+
+  .fourth-section {
+    padding-bottom: 20px;
+  }
+}
